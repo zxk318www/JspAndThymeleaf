@@ -1,0 +1,141 @@
+@import url("../lib/miniui/themes/default/flatstyle.css");
+
+body .mini-textbox-disabled .mini-textbox-border,
+body .mini-buttonedit-disabled .mini-buttonedit-border {
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+}
+
+.mini-textbox-border, .mini-buttonedit-border {
+    border-color: #ddd;
+}
+
+body .mini-buttonedit-disabled .mini-buttonedit-input {
+    background: #f5f5f5;
+    color: #333;
+}
+
+
+
+
+i.fa {
+    text-align: center;
+    background-color: transparent;
+    color: #7E7E7E;
+    margin-right: 5px;
+    cursor: pointer;
+}
+i.c-primary{
+    color: #B4E1F7;
+}
+i.c-pink {
+    color: #F4D7D9;
+}
+
+i.c-blue {
+    color: #aac6e8;
+}
+
+i.c-666 {
+    color: #666;
+}
+
+.mini-row {
+    margin-bottom: 10px;
+}
+
+.mini-button {
+    border-radius: 0;
+}
+
+.grid-table .mini-textbox {
+    margin: 3px 0px;
+}
+
+.mini-checkboxlist-item {
+    height: 24px;
+}
+
+.mini-radiobuttonlist {
+    min-height: 31px;
+    height: auto;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.mini-radiobuttonlist tr {
+    height: 31px;
+    font-size: 12px;
+}
+
+
+
+
+body .mini-textbox-readOnly .mini-textbox-border, body .mini-textbox-disabled .mini-textbox-border {
+    background: white;
+    border: none
+}
+.mini-panel .mini-panel-viewport {
+    display: block;
+}
+
+
+
+.mini-grid-table {
+    width: 98%;
+    margin: 2px 1%;
+}
+
+.mini-grid-table td, .mini-grid-table th {
+    border: 0px solid #9A745E;
+    border-collapse: collapse;
+}
+
+.mini-grid-table th {
+    color: #9A745E;
+}
+.mini-tree .mini-icon {color: #26A4E4;border-collapse: collapse;}
+.mini-tree  .mini-grid-table { width: auto!important; margin: 0px!important;}
+.mini-text-focus .mini-textbox-border{ border: 1px solid #01b5a4;}
+.mini-checkboxlist td { border:none!important;}
+.mini-checkboxlist-table tr {height:60px; vertical-align: top;}
+.mini-textbox { border-radius: 5px;}
+.radius .mini-textbox-border { border-radius: 5px;}
+.menuNav div.min-icon{color:white!important;  background: none;}
+.menuNav .mini-menuitem-text{color: #26A4E4;font-size: 16px;cursor: pointer;}
+.menuNav .mini-menu-border{border:none;font-weight: 700;}
+.menuNav .mini-menuitems{float: left;padding:5px;cursor: pointer;width: 140px;}
+.menuNav .mini-menuitems .mini-icon{color:white;}
+.menuNav .mini-menuitem-hover .mini-icon{color:transparent;}
+.menuNav .mini-menu-popup .mini-icon{color:#01b5a4;}
+.menuNav .mini-menuitem-hover,.menuNav .active,.menuNav .mini-menu-popup{background:none;background: linear-gradient(to right,#29A6E5,#67CAFC);border-radius: 20px;border: none;/* color: white; */}
+.menuNav .mini-menuitem-hover .mini-menuitem-text,.menuNav .active .mini-menuitem-text,.menuNav .mini-menu-popup .mini-menuitem-text{color: white;}
+a.mini-menu-topArrow,a.mini-menu-bottomArrow { display: none!important;}
+.second-menu { position: relative; top:70px;left:-20px;}
+.second-menu .mini-menu-border { border: none;}
+.second-menu .mini-menuitem{background:#F6F6F6;border: 1px solid gray; border-radius: 5px;cursor:pointer;}
+.second-menu .mini-menuitem-inner{padding:5px 0px!important; width: 140px; text-align: center; }
+/*tabs*/
+.mini-tab { background: none;}
+.mini-tab { color:#0b93d9; border:1px solid #0b93d9; background-color: white;}
+.mini-tab:first-child{border-top-left-radius: 4px;border-bottom-left-radius: 4px;}
+.mini-tab:last-child{border-top-right-radius: 4px;border-bottom-left-radius: 4px;}
+.mini-tab-active { background-color: #0b93d9;color:white;border:1px solid #0b93d9;}
+.mini-tabs-space2 { display: none;}
+.mini-tabs-scrollCt{ background: none;border:none;}
+.mini-tabs-space { border-bottom: none;}
+.mini-tabs-bodys {border:none; background: transparent;}
+.mini-buttonedit-readOnly { background-color:#ECF6FB; }
+
+/*panel*/
+.mini-panel-success > .mini-panel-border > .mini-panel-header {
+    color: white;
+    background-color: #01b5a4;
+    border-color: #d6e9c6;
+}
+.mini-panel-danger > .mini-panel-border > .mini-panel-header {
+    color: white;
+    background-color: #FF8E5D;
+    border-color: #ebccd1;
+}
+.bg-skyBlue .mini-textbox-border { border: none; background-color: transparent!important;}
