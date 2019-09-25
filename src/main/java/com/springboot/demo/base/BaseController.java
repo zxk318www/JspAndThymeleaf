@@ -1,13 +1,9 @@
 package com.springboot.demo.base;
 
-import com.springboot.demo.common.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import java.net.URLDecoder;
 
 /**
  * @program: demo
@@ -20,7 +16,7 @@ import java.net.URLDecoder;
 public class BaseController {
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public String index(){
-
+        int i = 7/0;
         return "jsp/index";
     }
 

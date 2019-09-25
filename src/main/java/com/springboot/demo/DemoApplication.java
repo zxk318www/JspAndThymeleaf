@@ -2,10 +2,11 @@ package com.springboot.demo;
 
 import com.springboot.demo.common.utils.SpringContextHolder;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
 * @Description:  springboot 启动
@@ -20,7 +21,8 @@ import org.springframework.context.annotation.Bean;
 * @Author: Zhangxike
 * @Date: 2019/9/24
 */
-@SpringBootApplication
+@EnableAutoConfiguration
+@ComponentScan(basePackages = "com.springboot.demo")
 public class DemoApplication extends SpringBootServletInitializer {
 
     @Bean
